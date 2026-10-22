@@ -132,6 +132,8 @@ Main configuration:
 11. mvn package install and build 
   sudo apt install maven -y
 mvn clean package
+cd target
+ 
 
 
 
@@ -183,6 +185,8 @@ Tomcat webapps directory:
 
 Copy:
 sudo cp shopping-cart.war /var/lib/tomcat10/webapps/
+
+change the shopping-cart.war in ROOT.war beacuse read only root for access for browser
 
 
 ==================================================
