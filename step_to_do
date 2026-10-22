@@ -129,6 +129,11 @@ Main configuration:
 /etc/tomcat10/server.xml
 
 
+11. mvn package install and build 
+  sudo apt install maven -y
+mvn clean package
+
+
 
 
 
